@@ -23,6 +23,10 @@ export default tseslint.config(
         "warn",
         { allowConstantExport: true },
       ],
+      // 코딩컨벤션
+      "@typescript-eslint/no-unused-vars": "off",
+      //"no-var": "warn",
+      //"no-var": "error", // 에러나면 CI/CD 배포할때 배포가 안되게 할 수 있음
     },
   }
 );
