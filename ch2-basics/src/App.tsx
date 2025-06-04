@@ -1,9 +1,9 @@
 import "./App.css"; // 전역??
-import Counter from "./code-live/03-state-events/Counter";
-import LiveShowInput from "./code-live/03-state-events/LiveShowInput";
-import Button from "./labs/02-props/Button";
-import UserList from "./labs/02-props/UserList";
-import Wrapper from "./labs/02-props/Wrapper";
+import Counter from "./labs/03-state-events/Counter";
+// import LiveShowInput from "./code-live/03-state-events/LiveShowInput";
+// import Button from "./labs/02-props/Button";
+// import UserList from "./labs/02-props/UserList";
+// import Wrapper from "./labs/02-props/Wrapper";
 // import Button from "./code-live/02-props/Button";
 // import Card from "./code-live/02-props/Card";
 // import UserList from "./code-live/02-props/UserList";
@@ -24,7 +24,7 @@ function App() {
       {/* <UserList /> */}
       {/* <Wrapper>children</Wrapper> */}
       {/* <Button onClick={() => alert("ㅎㅇ")} /> */}
-      <LiveShowInput></LiveShowInput>
+      <Counter></Counter>
     </>
   );
 }

@@ -32,7 +32,7 @@ interface User3 {
 // }
 
 //예제 3
-export default function Greeting3({ name, age }: User2) {
+export default function Greeting3({ name, age }: User3) {
   //  조건부 렌더링
   //(1) if문
   //   if (!age) {
@@ -61,6 +61,7 @@ export default function Greeting3({ name, age }: User2) {
   return (
     <p className={styles.hello}>
       안녕하세요, {name}
+      {/* 아래코드는 && 앞 조건이 참이면 &&뒤에 age를 출력해라는 뜻 */}
       {age !== undefined && `(${age})`}
     </p>
   );
