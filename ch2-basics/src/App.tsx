@@ -1,5 +1,6 @@
 import "./App.css"; // 전역??
 import Counter from "./labs/03-state-events/Counter";
+import ToggleMessage from "./labs/03-state-events/ToggleMessage";
 // import LiveShowInput from "./code-live/03-state-events/LiveShowInput";
 // import Button from "./labs/02-props/Button";
 // import UserList from "./labs/02-props/UserList";
@@ -24,7 +25,7 @@ function App() {
       {/* <UserList /> */}
       {/* <Wrapper>children</Wrapper> */}
       {/* <Button onClick={() => alert("ㅎㅇ")} /> */}
-      <Counter></Counter>
+      <ToggleMessage></ToggleMessage>
     </>
   );
 }

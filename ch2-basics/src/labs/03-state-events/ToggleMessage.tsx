@@ -9,7 +9,8 @@ export default function ToggleMessage() {
   const [isVisible, setIsVisible] = useState(false);
 
   function boolChkFunc() {
-    if (boolchk) return <p>비밀 메시지입니다!</p>;
+    setIsVisible(!isVisible);
+    if (isVisible) return <p>비밀 메시지입니다!</p>;
   }
 
   return (

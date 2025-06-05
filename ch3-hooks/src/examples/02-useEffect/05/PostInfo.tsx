@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 type Post = { id: number; title: string; body: string };
 
 export default function PostInfo() {
-  const [post, setPost] = useState<Post | null>(null);
+  const [post, setPost] = useState<Post | null>(null); // post 게시판
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ export default function PostInfo() {
         const res = await fetch("https://jsonplaceholder.typicode.com/posts/1");
         if (!res.ok) throw new Error("API 오류!");
         const data = await res.json();
-        setTimeout(()=> {
+        setTimeout(() => {
           setPost(data);
           setLoading(false);
         }, 1000);

@@ -15,3 +15,6 @@ export default function TodoList({ todos, deleteTodo }: Props) {
     </ul>
   );
 }
+
+// TodoList 에서는 deleteTodo을 안사용함
+// TodoList 하위의 TodoIiem에서 deleteTodo을 사용함 -> 프롭스 드릴링

@@ -40,3 +40,5 @@ export default function TodoRoot() {
     </div>
   );
 }
+// addTodo={addTodo} 에서 addTodo는 props 함수임.
+// props 함수 던져줄 수 있음
